@@ -15,7 +15,8 @@ heder = {'Host': 'api2.1112.com',
 'accept-language': 'th-TH,th;q=0.9,en;q=0.8',
 }
 
-data = {"phonenumber":"ลบออกและใส่เบอร์ที่จะยิง","language":"th"}
+##ตัวนี้แก้แล้วครับยิงได้เลย
+data = {"phonenumber": f"{no}","language":"th"}
 
 print("\n[กำลังส่ง]")
 for i in range(jml):
